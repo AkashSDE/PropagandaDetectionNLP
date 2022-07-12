@@ -30,21 +30,21 @@ Many propaganda includes words like god, church and Muslim. It shows that religi
 
 
 ## Baseline Architecture
-*Task-1 – Span Identification Task: For the baseline architecture we created P/NP tagging and trained Bi-Directional LSTM Model.
+* **Task-1 – Span Identification Task**: For the baseline architecture we created P/NP tagging and trained Bi-Directional LSTM Model.
 Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Baseline_Architecture/Baseline%20Architecture.pdf) for more details
 
-*Task-2 – Technique Classification Task: For the baseline architecture as features we used context, the span present in the context and ratio of length of context and length of span.
+* **Task-2 – Technique Classification Task**: For the baseline architecture as features we used context, the span present in the context and ratio of length of context and length of span.
 Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Baseline_Architecture/Baseline%20Architecture.pdf) for more details
 
 ## Final Architecture
-*Task1 - Span Identification Task:For span identification we makes use of a state-of-the-art language model **BERT** enhanced by tagging schemes for token level classification with **BIOE** encoding scheme.
+* **Task1 - Span Identification Task**:For span identification we makes use of a state-of-the-art language model **BERT** enhanced by tagging schemes for token level classification with **BIOE** encoding scheme.
 Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Final_Architecture/Final_Report.pdf) for more details
 
 <p align="center">
 <img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Picture1.jpg">
 </p>
 
-*Task2 - Technique Classification Task:For the technique classification model, we use BERT language model to get the contextual sequence representation for the propaganda span and its context to perform classification.
+* **Task2 - Technique Classification Task**:For the technique classification model, we use BERT language model to get the contextual sequence representation for the propaganda span and its context to perform classification.
 Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Final_Architecture/Final_Report.pdf) for more details
 
 <p align="center">
@@ -91,8 +91,8 @@ Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c
 
 * Li,W., Li, S., Liu, C. et al. Span identification and technique classification of propaganda in news articles. ComplexIntell. Syst. (2021). https://doi.org/10.1007/s40747-021-00393-y
 
-*Yinhan Liu and Myle Ott and Naman Goyal and Jingfei Du and Mandar Joshi and Danqi Chen and Omer Levy and Mike Lewis and Luke Zettlemoyer and Veselin Stoyanov. 2019. Roberta: A robustly optimized BERT pretraining approach. CoRR,abs/1907.11692.
+* Yinhan Liu and Myle Ott and Naman Goyal and Jingfei Du and Mandar Joshi and Danqi Chen and Omer Levy and Mike Lewis and Luke Zettlemoyer and Veselin Stoyanov. 2019. Roberta: A robustly optimized BERT pretraining approach. CoRR,abs/1907.11692.
 
-*Giovanni Da San Martino, Seunghak Yu, Alberto Barron-Cede ´ no, Rostislav Petrov, and Preslav Nakov. 2019.Fine-grained analysis of propaganda in news articles. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing EMNLP-IJCNLP 2019, EMNLP-IJCNLP 2019, Hong Kong, China, November.
+* Giovanni Da San Martino, Seunghak Yu, Alberto Barron-Cede ´ no, Rostislav Petrov, and Preslav Nakov. 2019.Fine-grained analysis of propaganda in news articles. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing EMNLP-IJCNLP 2019, EMNLP-IJCNLP 2019, Hong Kong, China, November.
 
-*Giovanni Da San Martino, Alberto Barron-Cede ´ no, Henning Wachsmuth, Rostislav Petrov, and Preslav Nakov. 2020. SemEval-2020 task 11: Detection of propaganda techniques in news articles. 2019. In Proceedings of the 14th International Workshop on Semantic Evaluation, SemEval 2020, Barcelona, Spain, September.
+* Giovanni Da San Martino, Alberto Barron-Cede ´ no, Henning Wachsmuth, Rostislav Petrov, and Preslav Nakov. 2020. SemEval-2020 task 11: Detection of propaganda techniques in news articles. 2019. In Proceedings of the 14th International Workshop on Semantic Evaluation, SemEval 2020, Barcelona, Spain, September.
