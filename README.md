@@ -1,7 +1,7 @@
 # **SEMEVAL 2020 TASK 11 "DETECTION OF PROPAGANDA TECHNIQUES IN NEWS ARTICLES**
 
 <p align="center">
-<img src="https://github.com/akdev121/RaftImplementation/blob/74eff67e269e5f7b0894bb01498e41b62eccbe0d/ReadmeImages/Capture4.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Capture4.JPG">
 </p>
 
 Propaganda is commonly defined as information of a biased or misleading nature, possibly purposefully shaped, to promote an agenda or a cause. In this project we are trying to build machine learning system for the Detection of Propaganda Techniques in News Articles.There are two subtasks to be solved as part of this project which are Span Identification and Technique Classification. We are able to secure **position 17 on leader board in SI Task and Position 20 in TC Task**.
@@ -11,13 +11,13 @@ The propaganda detection pipeline includes two sub tasks
 * **Task-2 -** Technique Classification (TC): Given a text fragment identified as propaganda and its document context, identify the applied propaganda technique in the fragment. (14 class Classification Task)
 
 <p align="center">
-<img src="https://github.com/akdev121/RaftImplementation/blob/74eff67e269e5f7b0894bb01498e41b62eccbe0d/ReadmeImages/Capture3.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Capture3.JPG">
 </p>
 
 ## 14 class distribution
 Task-2 is a 14-class classification task. The distribution amongst the classes is shown below. Dataset is highly imbalance
 <p align="center">
-<img src="https://github.com/akdev121/RaftImplementation/blob/74eff67e269e5f7b0894bb01498e41b62eccbe0d/ReadmeImages/Capture2.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Capture2.JPG">
 </p>
 
 
@@ -25,30 +25,30 @@ Task-2 is a 14-class classification task. The distribution amongst the classes i
 Many propaganda includes words like god, church and Muslim. It shows that religion is used as propaganda more commonly.
 
 <p align="center">
-<img src="https://github.com/akdev121/RaftImplementation/blob/74eff67e269e5f7b0894bb01498e41b62eccbe0d/ReadmeImages/Capture1.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Capture1.JPG">
 </p>
 
 
 ## Baseline Architecture
 *Task-1 – Span Identification Task: For the baseline architecture we created P/NP tagging and trained Bi-Directional LSTM Model.
-Please chck [here]() for more details
+Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Baseline_Architecture/Baseline%20Architecture.pdf) for more details
 
 *Task-2 – Technique Classification Task: For the baseline architecture as features we used context, the span present in the context and ratio of length of context and length of span.
-Please chck [here]() for more details
+Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Baseline_Architecture/Baseline%20Architecture.pdf) for more details
 
 ## Final Architecture
 *Task1 - Span Identification Task:For span identification we makes use of a state-of-the-art language model **BERT** enhanced by tagging schemes for token level classification with **BIOE** encoding scheme.
-Please chck [here]() for more details
+Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Final_Architecture/Final_Report.pdf) for more details
 
 <p align="center">
-<img src="https://github.com/akdev121/RaftImplementation/blob/74eff67e269e5f7b0894bb01498e41b62eccbe0d/ReadmeImages/Picture1.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Picture1.jpg">
 </p>
 
 *Task2 - Technique Classification Task:For the technique classification model, we use BERT language model to get the contextual sequence representation for the propaganda span and its context to perform classification.
-Please chck [here]() for more details
+Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Final_Architecture/Final_Report.pdf) for more details
 
 <p align="center">
-<img src="https://github.com/akdev121/RaftImplementation/blob/74eff67e269e5f7b0894bb01498e41b62eccbe0d/ReadmeImages/Picture2.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Picture2.jpg">
 </p>
 
 
@@ -56,17 +56,17 @@ Please chck [here]() for more details
 
 **Team Information**
 <p align="left">
-<img src="https://github.com/akdev121/RaftImplementation/blob/74eff67e269e5f7b0894bb01498e41b62eccbe0d/ReadmeImages/Capture5.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Capture5.JPG">
 </p>
 
 **SI task**
 <p align="left">
-<img src="https://github.com/akdev121/RaftImplementation/blob/74eff67e269e5f7b0894bb01498e41b62eccbe0d/ReadmeImages/Capture8.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Capture8.JPG">
 </p>
 
 **TC task**
 <p align="left">
-<img src="https://github.com/akdev121/RaftImplementation/blob/74eff67e269e5f7b0894bb01498e41b62eccbe0d/ReadmeImages/Capture9.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Capture9.JPG">
 </p>
 
 
@@ -79,10 +79,10 @@ Please chck [here]() for more details
 * **Jupyter Notebook**
 
 ## How to use this repository
-* Please check Readme.pdf [here](https://github.com/akdev121/RaftImplementation/blob/9b0b2ec1847b24316bcb2a13a47a3cc24a20e982/Readme/Readme.pdf)
+* Please check Readme.pdf [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/codebase/README.md)
 
 ## Dataset Detail
-* Please check Readme.pdf [here](https://github.com/akdev121/RaftImplementation/blob/9b0b2ec1847b24316bcb2a13a47a3cc24a20e982/Readme/Readme.pdf)
+* Please check Readme.pdf [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Dataset/README.md)
 
 ## References
 * Ilya Loshchilov and Frank Hutter. 2017. Fixing weight decay regularization in adam. . CoRR, abs 1711.05101.
