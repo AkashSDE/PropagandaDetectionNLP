@@ -34,11 +34,11 @@ Many propaganda includes words like god, church and Muslim. It shows that religi
 Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Baseline_Architecture/Baseline%20Architecture.pdf) for more details
 
 * **Task-2 – Technique Classification Task**: For the baseline architecture as features we used context, the span present in the context and ratio of length of context and length of span.
-Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Baseline_Architecture/Baseline%20Architecture.pdf) for more details
+Please check [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Baseline_Architecture/Baseline%20Architecture.pdf) for more details
 
 ## Final Architecture
 * **Task1 - Span Identification Task**:For span identification we makes use of a state-of-the-art language model **BERT** enhanced by tagging schemes for token level classification with **BIOE** encoding scheme.
-Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Final_Architecture/Final_Report.pdf) for more details
+Please check [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/Final_Architecture/Final_Report.pdf) for more details
 
 <p align="center">
 <img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Picture1.jpg">
@@ -56,7 +56,7 @@ Please chck [here](https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c
 
 **Team Information**
 <p align="left">
-<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/8118c828119f881261f4d6387b81c869158ae7a8/images/Capture5.JPG">
+<img src="https://github.com/AkashSDE/PropagandaDetectionNLP/blob/9b3cea0c8d3949fc85744c49765ed1efe03ebbe4/images/Capture10.JPG">
 </p>
 
 **SI task**
